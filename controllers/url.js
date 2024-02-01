@@ -12,3 +12,5 @@ async function handleurlpost( req, res) {
     })
      return res.json({id:short_Url})
 }
+
+module .exports ={handleurlpost,}
