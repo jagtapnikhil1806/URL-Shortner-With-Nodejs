@@ -3,3 +3,5 @@ const {handleurlpost}= require('../controllers/url')
 const router =express.Router();
 
 router.post('/',handleurlpost)
+
+module.exports=router;
